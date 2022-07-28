@@ -1,0 +1,13 @@
+// ПЕРВЫЙ ПАРШАЛ
+body {
+    font-family: var(--main-fonts);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--title-text-color);
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+}

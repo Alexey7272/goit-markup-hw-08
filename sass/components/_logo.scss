@@ -1,0 +1,16 @@
+.logo {
+    font-family: var(--secondary-fonts);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.part-logo-dark {
+    color: var(--dark-color);
+}
+
+.part-logo-white {
+    color: var(--title-text-color);
+}
