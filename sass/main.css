@@ -557,28 +557,11 @@ section {
 .client__tittle {
   margin-bottom: 50px;
 }
-@media screen and (min-width: 768px) {
-  .client__set {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -30px;
-    margin-bottom: -30px;
-  }
+.client__list {
+  display: flex;
 }
-@media screen and (min-width: 768px) {
-  .client .features-item {
-    flex-basis: calc((100% - 60px) / 2);
-  }
-}
-@media screen and (min-width: 1140px) {
-  .client .features-item {
-    flex-basis: calc((100% - 90px) / 3);
-  }
-}
-@media screen and (max-width: 767px) {
-  .client .features-item:not(:last-child) {
-    margin-bottom: 30px;
-  }
+.client__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .client-box {

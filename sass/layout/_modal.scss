@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
 
     opacity: 1;
     visibility: visible;
@@ -167,25 +166,33 @@
     }
 
     &__title {
-        margin-left: 7px;
+        margin-left: 8px;
     
         font-family: 'Roboto'; 
-        font-size: 14px;
-        line-height: 1.7;
+        font-size: 12px;
+        line-height: 1.16;
         letter-spacing: 0.03em;  
     
         color: var(--text-color);
+
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            line-height: 1.7;
+        }
     }
 
     &__link {
         font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
+        font-size: 12px;
+        line-height: 1.16;
         letter-spacing: 0.03em;
         
         color: var(--accent-color);
+
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            line-height: 1.7;
+        }
     }
 }
 

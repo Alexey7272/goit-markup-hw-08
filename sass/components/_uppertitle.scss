@@ -1,8 +1,12 @@
 .uppertitle {
-    text-align: center;
+  text-align: center;
 
-    font-weight: 700;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.16;
+  color: var(--primary-text-color);
+
+  @media screen and (min-width: 1200px) {
     font-size: 36px;
-    line-height: 1.16;
-    color: var(--primary-text-color);
+  }
 }

@@ -13,7 +13,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
 
@@ -24,6 +23,13 @@
       <nav class="header__container container">
         <a class="header__logo logo" href="/"
         >Web<span class="part-logo-dark">Studio</span></a>
+
+        <button class="mobile-menu-btn" type="button" data-menu-button>
+          <svg width="24" height="16">
+            <use class="burger-menu-open" href="./images/icons.svg#mobile-menu"></use>
+            <use class="burger-menu-close" href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
 
         <ul class="header-navigation list">
           <li class="header-navigation-item list">
@@ -60,6 +66,52 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Mobile menu -->
+
+    <div class="mobile-menu" data-menu>
+      <ul class="mobile-menu-nav list">
+        <li class="mobile-menu-nav-item">
+          <a class="link" href="./index.html">Студия</a>
+        </li>
+
+        <li class="mobile-menu-nav-item">
+          <a class="link current-mobile" href="./portfolio.html">Портфолио</a>
+        </li>
+
+        <li class="mobile-menu-nav-item">
+          <a class="link" href="">Контакты</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-contacts list">
+        <li class="mobile-menu-contacts-item">
+          <a class="link accent" href="">+38 096 111 11 11</a>
+        </li>
+
+        <li class="mobile-menu-contacts-item">
+          <a class="link" href="">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-socials list">
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">Instagram</a>
+        </li>
+
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">Twitter</a>
+        </li>
+        
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">Facebook</a>
+        </li>
+
+        <li class="mobile-menu-socials-item">
+          <a class="mobile-menu-socials-link link" href="">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
 
 
     <!-- Main -->
@@ -128,7 +180,7 @@
                   <div class="project-box__photo">
                     <img 
                     src="./images/project2.jpg"
-                    alt="ноутбук" 
+                    alt="постер" 
                     width="370"/>
   
                     <p class="project-box__text-hover">
@@ -147,7 +199,7 @@
                   <div class="project-box__photo">
                     <img 
                     src="./images/project3.jpg"
-                    alt="ноутбук" 
+                    alt="логотип ресторана" 
                     width="370"/>
   
                     <p class="project-box__text-hover">
@@ -186,7 +238,7 @@
                   <div class="project-box__photo">
                     <img 
                     src="./images/project5.jpg"
-                    alt="ноутбук" 
+                    alt="" 
                     width="370"/>
   
                     <p class="project-box__text-hover">
@@ -391,5 +443,7 @@
       </div>
     </footer>
     
+    <!-- Java Script -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>

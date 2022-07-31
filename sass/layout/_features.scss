@@ -1,13 +1,20 @@
 .features {
     &__list {
         display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
     }
+
     
     &__item {
-        width: 270px;
+        width: 450px;
 
-        &:not(:last-child) {
-            margin-right: 30px;
+        @media screen and (min-width: 768px) {
+            width: 354px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 270px;
         }
     }
 }
@@ -17,7 +24,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    width: 270px;
+    
     height: 120px;
 
     border-radius: 4px;

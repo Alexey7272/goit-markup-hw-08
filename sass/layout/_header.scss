@@ -8,9 +8,22 @@
         align-items: center;
         justify-content: flex;
     }
+
+    &__logo {
+       @media screen and (max-width: 480px) {
+          padding-top: 16px;
+          padding-bottom: 16px;  
+        }  
+    }
 }
 
+
 .header-navigation {
+
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+    
     display: flex;
     margin-left: 93px;
 
@@ -61,17 +74,30 @@
 
 
 .header-contacts {
-    display: flex;
-    margin-left: auto;
 
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        gap: 10px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin-left: auto;
+    }
+    
+    
     & .item {
         margin-left: 30px;
     }
 
     &__item {
         display: block;
-        padding-top: 32px;
-        padding-bottom: 32px;
     
         font-style: normal;
         font-weight: 500;
