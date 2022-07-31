@@ -19,9 +19,9 @@
 .burger-menu-open {
     transition: 500ms;
 
-  .mobile-menu-btn.is-open & {
-    opacity: 0;
-  }
+    .mobile-menu-btn.is-open & {
+      opacity: 0;
+    }
 }
 
 .burger-menu-close {
