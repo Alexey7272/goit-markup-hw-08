@@ -1010,12 +1010,13 @@ section {
 }
 
 /* Address and contacts  */
-.address-item:not(:first-child) {
-  margin-top: 8px;
+.address__item:not(:last-child) {
+  margin-bottom: 8px;
 }
 .address__link {
   display: block;
   margin-top: 20px;
+  margin-bottom: 8px;
   font-family: var(--main-fonts);
   font-style: normal;
   line-height: 1.71;

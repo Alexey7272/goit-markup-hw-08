@@ -44,13 +44,14 @@
 
 .address {
 
-    &-item:not(:first-child) {
-        margin-top: 8px;
+    &__item:not(:last-child) {
+        margin-bottom: 8px;
     }
     
     &__link {
         display: block;
         margin-top: 20px;
+        margin-bottom: 8px;
     
         font-family: var(--main-fonts);
         font-style: normal;
