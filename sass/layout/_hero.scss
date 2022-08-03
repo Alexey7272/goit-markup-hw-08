@@ -1,4 +1,5 @@
 .hero {
+    max-width: 1600px;
     padding-top: 118px;
     padding-bottom: 118px;
     margin: 0 auto;
@@ -47,7 +48,7 @@
     }
 
     &__title {
-        width: 360px;
+        width: 100%;
         margin: 0 auto;
     
         font-weight: 900;
@@ -65,8 +66,5 @@
 
     &__btn {
         margin-top: 30px;
-
-        // left: 700px;
-        // top: 430px;
     }
 }
