@@ -1143,8 +1143,12 @@ section {
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+  outline: transparent;
   color: var(--title-text-color);
   background-color: var(--background-color);
+}
+.form-footer:hover, .form-footer:focus {
+  border-color: var(--accent-color);
 }
 @media screen and (min-width: 1200px) {
   .form-footer {
